@@ -24,7 +24,7 @@ int r1 = 0, r2 = 0;
 extern int
 main(void)
 {
-  pthread_t       thread1, thread2;
+  pthread_t thread1, thread2;
  
   if (pthread_create(&thread1, 
 		 NULL,
