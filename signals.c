@@ -6,8 +6,8 @@ int main() {
 	pid_t pid = fork();
 	if (pid == 0) {
 	  for (;;) {
-		sleep(2); 
 		printf("pid=%ld\n",getpid());
+		sleep(2); 
 	  }
 	}
 	else {
